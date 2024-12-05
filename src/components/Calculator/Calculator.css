@@ -1,0 +1,29 @@
+.calculator{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    width: 25rem;
+}
+
+.buttonsContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 3rem 0 ;
+
+  }
+
+  input {
+    
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .displayResult {
+    font-size: 3rem;
+    color: #90938d;
+  }
